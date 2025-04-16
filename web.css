@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    color: #fff;
+    background: #000;
+  }
+  
+  #bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    z-index: 10;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 2rem;
+  }
+  
+  nav a {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 100px 40px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  #hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: gold;
+  }
+  
+  .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .course {
+    background: #111;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid gold;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: #ccc;
+  }
+  
